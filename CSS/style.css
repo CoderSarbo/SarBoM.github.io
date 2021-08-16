@@ -13,563 +13,557 @@
   transition: opacity 5s ease-in;
 }
 .about-container {
-    padding: 6.25rem 0 0 0 !important;
-  }
-  
-  .about-container-grid {
-    padding-top: 3.125rem;
-  }
-  
-  .about-container-header {
-    position: relative;
-    padding: 1.25rem 0 0;
-    width: 80%;
-    color: #4a1c40;
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-  }
-  
-  .about-container-horizontal-line {
-    margin: 0;
-    border: 2;
-    padding-bottom: 1.25rem;
-    color: #4a1c40;
-  }
-  
-  .about-me-header {
-    color: #4a1c40;
-    font-family: "EB Garamond", serif;
-    font-weight: 500;
-    text-decoration: underline;
-  }
-  
-  .about-me-para {
-    padding-right: 18.75rem;
-    color: #542e71;
-    font-size: 1.25rem;
-    line-height: 1.5;
-  }
-  
-  .about-icon {
-    color: #4a1c40;
-    position: absolute;
-    right: 6.25rem;
-    top: 57.8125rem;
-  }
+  padding: 6.25rem 0 0 0 !important;
+}
 
-  .achievements-carousel {
-    text-align: center;
-  }
-  
-  .achievements-carousel-img {
-    width: 20%;
-    padding: 6.25rem 0 12.5rem;
-  }
-  
-  .achievements-carousel-item {
-    margin-bottom: 6.25rem;
-  }
-  
-  .achievements-container-horizontal-line {
-    background-color: #ce97b0;
-  }
-  
-  .achievements-header {
-    color: #fff;
-    font-family: "EB Garamond", serif;
-  }
+.about-container-grid {
+  padding-top: 3.125rem;
+}
 
-  .brand-logo {
-    height: 3rem;
-    width: 3.125rem;
-  }
+.about-container-header {
+  position: relative;
+  padding: 1.25rem 0 0;
+  width: 80%;
+  color: #4a1c40;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
 
-  .carousel-caption {
-    font-family: "Signika Negative", sans-serif;
-    font-weight: 500;
-    font-size: 1.25rem;
-    color: #d8e3e7;
-  }
-  
-  .carousel-header {
-    color: #4a1c40;
-    font-size: 1.875rem;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-  }
-  
-  .closing-tag {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #4a1c40;
-    font-size: 0.625rem;
-  }
-  
+.about-container-horizontal-line {
+  margin: 0;
+  border: 2;
+  padding-bottom: 1.25rem;
+  color: #4a1c40;
+}
 
-  .download-resume {
-    color: #4a1c40 !important;
-    border-color: #4a1c40 !important;
-    text-align: center;
-  }
-  
-  .download-resume-text {
-    color: #4a1c40 !important;
-  }
+.about-me-header {
+  color: #4a1c40;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  text-decoration: underline;
+}
 
-  .education-container-horizontal-line {
-    background-color: #ce97b0;
-  }
-  
-  .education-header {
-    color: #fff;
-    text-align: left;
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-  }
-  
-  .footer-coding-profiles {
-    padding-bottom: 1.5625rem;
-  }
-  
-  .footer-column-first {
-    padding: 6.25rem 0;
-  }
-  
-  .footer-column-second {
-    padding: 3.125rem 0;
-  }
-  
-  .footer-contact-me {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #4a1c40;
-    font-size: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-  
-  .footer-container-horizontal-line {
-    background-color: #4a1c40;
-  }
-  
-  .footer-header {
-    color: #4a1c40;
-    text-align: left;
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-  }
-  
-  .footer-icon {
-    margin: 0 1.25rem;
-    width: 1.875rem;
-    height: 1.875rem;
-    color: #8f4068;
-  }
-  
-  .footer-icon:hover {
-    color: #4a1c40;
-  }
-  
-  .footer-img {
-    padding-top: 2.5rem;
-    width: 40%;
-  }
-  
-  .footer-social-media {
-    padding: 1.5625rem 0;
-  }
-  
-  .footer-thankyou-line {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #4a1c40;
-    font-size: 1.25rem;
-  }
-  
-  .footer-thankyou-para {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #4a1c40;
-    font-size: 1.25rem;
-    padding-bottom: 1.5625rem;
-  }
-  
+.about-me-para {
+  padding-right: 18.75rem;
+  color: #542e71;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.about-icon {
+  color: #4a1c40;
+  position: absolute;
+  right: 6.25rem;
+  top: 57.8125rem;
+}
+
+.achievements-carousel {
+  text-align: center;
+}
+
+.achievements-carousel-img {
+  width: 20%;
+  padding: 6.25rem 0 12.5rem;
+}
+
+.achievements-carousel-item {
+  margin-bottom: 6.25rem;
+}
+
+.achievements-container-horizontal-line {
+  background-color: #ce97b0;
+}
+
+.achievements-header {
+  color: #fff;
+  font-family: "EB Garamond", serif;
+}
+
+.brand-logo {
+  height: 3rem;
+  width: 3.125rem;
+}
+
+.carousel-caption {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #d8e3e7;
+}
+
+.carousel-header {
+  color: #4a1c40;
+  font-size: 1.875rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.closing-tag {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4a1c40;
+  font-size: 0.625rem;
+}
+
+.download-resume {
+  color: #4a1c40 !important;
+  border-color: #4a1c40 !important;
+  text-align: center;
+}
+
+.download-resume-text {
+  color: #4a1c40 !important;
+}
+
+.education-container-horizontal-line {
+  background-color: #ce97b0;
+}
+
+.education-header {
+  color: #fff;
+  text-align: left;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+.footer-coding-profiles {
+  padding-bottom: 1.5625rem;
+}
+
+.footer-column-first {
+  padding: 6.25rem 0;
+}
+
+.footer-column-second {
+  padding: 3.125rem 0;
+}
+
+.footer-contact-me {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4a1c40;
+  font-size: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.footer-container-horizontal-line {
+  background-color: #4a1c40;
+}
+
+.footer-header {
+  color: #4a1c40;
+  text-align: left;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+.footer-icon {
+  margin: 0 1.25rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  color: #8f4068;
+}
+
+.footer-icon:hover {
+  color: #4a1c40;
+}
+
+.footer-img {
+  padding-top: 2.5rem;
+  width: 40%;
+}
+
+.footer-social-media {
+  padding: 1.5625rem 0;
+}
+
+.footer-thankyou-line {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4a1c40;
+  font-size: 1.25rem;
+}
+
+.footer-thankyou-para {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4a1c40;
+  font-size: 1.25rem;
+  padding-bottom: 1.5625rem;
+}
 
 .homepage-bg-img {
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 50rem;
-    object-fit: cover;
-  }
-  
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+
 .homepage-container {
-    padding-bottom: 25rem;
-  }
+  padding-bottom: 25rem;
+}
 
-  .homepage-myIntroduction {
-    color: #f5f5f5;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-  }
-  
-  .homepage-myFirstName {
-    color: #f5f5f5;
-    font-size: 3.125rem;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    padding-top: 9.375rem;
-    line-height: 2;
-  }
+.homepage-myIntroduction {
+  color: #f5f5f5;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
 
-  .institution-description {
-    color: #d8e3e7;
-    font-family: "Signika Negative", sans-serif;
-  }
-  
-  .institution-duration {
-    color: #d8e3e7;
-    font-family: "Signika Negative", sans-serif;
-  }
-  
-  .institution-locaduration {
-    padding: 3.125rem 0;
-  }
-  
-  .institution-location {
-    color: #fff;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    font-size: 1.25rem;
-    margin: 0;
-    padding-bottom: 0.625rem;
-  }
-  
-  .institution-name {
-    color: #fff;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-  }
-  
-  .institution-name-description {
-    padding: 3.125rem 0;
-  }
-  
-  .institution-name:hover {
-    color: #4a1c40;
-  }
-  
-  .institution-name-link:hover {
-    text-decoration: none;
-  }
-  
+.homepage-myFirstName {
+  color: #f5f5f5;
+  font-size: 3.125rem;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  padding-top: 9.375rem;
+  line-height: 2;
+}
 
-  .interests-carousel {
-    padding-top: 3.125rem;
-    height: 37.5rem;
-  }
-  
-  .interests-container {
-    padding: 0 6.25rem;
-  }
-  
-  .interests-container-header {
-    color: #4a1c40;
-    text-align: left;
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-  }
-  
-  .interest-img {
-    width: 30%;
-    padding-bottom: 6.25rem;
-  }
+.institution-description {
+  color: #d8e3e7;
+  font-family: "Signika Negative", sans-serif;
+}
 
+.institution-duration {
+  color: #d8e3e7;
+  font-family: "Signika Negative", sans-serif;
+}
 
-  .introduction-span {
-    color: #ce97b0;
-    font-weight: bold;
-  }
-  
-  .lastName {
-    color: #ce97b0;
-  }
+.institution-locaduration {
+  padding: 3.125rem 0;
+}
 
-  .locaduration {
-    padding-left: 12.5rem !important;
-  }
+.institution-location {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin: 0;
+  padding-bottom: 0.625rem;
+}
 
-  .main-page-homepage {
-    text-align: center;
-    padding: 0 !important;
-  }
+.institution-name {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
 
-  .mobile{
-    padding-left: 0.625rem;
-    padding-right: 1.25rem;
-  }
+.institution-name-description {
+  padding: 3.125rem 0;
+}
 
-  .mobile-achievements {
-    visibility: hidden;
-    height: 0;
-  }
-  
-  .mobile-achievements-text {
-    color: #fff;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
-    padding: 0.625rem 0;
-  }
-  
-  .mobile-interests-text {
-    color: #4a1c40;
-    padding: 0.625rem 0;
-  }
-  
-  .mobile-skill {
-    padding: 1.5625rem 0 3.125rem;
-  }
-  
-  .mobile-skills-container {
-    visibility: hidden;
-    height: 0;
-  }
+.institution-name:hover {
+  color: #4a1c40;
+}
+
+.institution-name-link:hover {
+  text-decoration: none;
+}
+
+.interests-carousel {
+  padding-top: 3.125rem;
+  height: 37.5rem;
+}
+
+.interests-container {
+  padding: 0 6.25rem;
+}
+
+.interests-container-header {
+  color: #4a1c40;
+  text-align: left;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+.interest-img {
+  width: 30%;
+  padding-bottom: 6.25rem;
+}
+
+.introduction-span {
+  color: #ce97b0;
+  font-weight: bold;
+}
+
+.lastName {
+  color: #ce97b0;
+}
+
+.locaduration {
+  padding-left: 12.5rem !important;
+}
+
+.main-page-homepage {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.mobile{
+  padding-left: 0.625rem;
+  padding-right: 1.25rem;
+}
+
+.mobile-achievements {
+  visibility: hidden;
+  height: 0;
+}
+
+.mobile-achievements-text {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  padding: 0.625rem 0;
+}
+
+.mobile-interests-text {
+  color: #4a1c40;
+  padding: 0.625rem 0;
+}
+
+.mobile-skill {
+  padding: 1.5625rem 0 3.125rem;
+}
+
+.mobile-skills-container {
+  visibility: hidden;
+  height: 0;
+}
 
 .navigation-bar {
-    background-color: #522546;
-    padding-bottom: 0;
-    opacity: 0.8;
-  }
-  
-  .nav-item {
-    padding: 0 0.625rem;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    font-size: 1.25rem;
-  }
+  background-color: #522546;
+  padding-bottom: 0;
+  opacity: 0.8;
+}
 
-  .personal-info-details {
-    color: #542e71;
-    font-size: 1.25rem;
-    line-height: 2;
-  }
+.nav-item {
+  padding: 0 0.625rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
 
-  .personal-info-column {
-    padding: 1.25rem 0 6.25rem;
-    text-align: left;
-    visibility: visible;
-  }
-  
-  .mobile-personal-info-column{
-    visibility: hidden;
-    height: 0;
-  }
-  
-  .personal-info-details-parameter {
-    font-family: "Libre Baskerville", serif;
-    color: #4a1c40;
-    /* text-align: left; */
-    text-decoration: underline;
-  }
-  
-  .personal-info-details-values{
-    text-align: right;
-  }
-  
-  .personal-info-header {
-    color: #4a1c40;
-    font-family: "EB Garamond", serif;
-    font-weight: 500;
-    text-decoration: underline;
-    padding-bottom: 2.5rem;
-    text-align: center;
-  }
-  
-  .resume-button{
-    text-align: center;
-  }
-  
-  .side-page-homepage {
-    background-color: #522546;
-    padding-right: 0 !important;
-  }
+.personal-info-details {
+  color: #542e71;
+  font-size: 1.25rem;
+  line-height: 2;
+}
 
-  .skills-container-horizontal-line {
-    background-color: #ce97b0;
-  }
-  
-  .skill-column {
-    padding: 0 6.25rem !important;
-  }
-  
-  .skill-element {
-    padding: 3.125rem 0;
-  }
-  
-  .skill-element-name {
-    color: #4a1c40;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-  }
-  
-  .skills-header {
-    color: #4a1c40;
-    text-align: left;
-    font-family: "EB Garamond", serif;
-    font-weight: 700;
-  }
-  
-  .skill-progress {
-    margin-top: 1.875rem;
-  }
+.personal-info-column {
+  padding: 1.25rem 0 6.25rem;
+  text-align: left;
+  visibility: visible;
+}
+
+.mobile-personal-info-column{
+  visibility: hidden;
+  height: 0;
+}
+
+.personal-info-details-parameter {
+  font-family: "Libre Baskerville", serif;
+  color: #4a1c40;
+  /* text-align: left; */
+  text-decoration: underline;
+}
+
+.personal-info-details-values{
+  text-align: right;
+}
+
+.personal-info-header {
+  color: #4a1c40;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-bottom: 2.5rem;
+  text-align: center;
+}
+
+.resume-button{
+  text-align: center;
+}
+
+.side-page-homepage {
+  background-color: #522546;
+  padding-right: 0 !important;
+}
+
+.skills-container-horizontal-line {
+  background-color: #ce97b0;
+}
+
+.skill-column {
+  padding: 0 6.25rem !important;
+}
+
+.skill-element {
+  padding: 3.125rem 0;
+}
+
+.skill-element-name {
+  color: #4a1c40;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.skills-header {
+  color: #4a1c40;
+  text-align: left;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+}
+
+.skill-progress {
+  margin-top: 1.875rem;
+}
+
 /**************************************** IDs ***************************************/
+
 #about {
   background-color: #ce97b0;
   padding: 0 6.25rem;
 }
 
 #achievements {
-    background-color: #583d72;
-    padding: 6.25rem 6.25rem;
+  background-color: #583d72;
+  padding: 6.25rem 6.25rem;
 }
 
 #education {
-    background-color: #583d72;
-    padding: 6.25rem 6.25rem;
-  }
-  
-#homepage {
-    text-align: center;
-  }
+  background-color: #583d72;
+  padding: 6.25rem 6.25rem;
+}
 
-  #footer {
+#homepage {
+  text-align: center;
+}
+
+#footer {
   text-align: center;
   background-color: #ce97b0;
   padding: 6.25rem 6.25rem 2rem;
 }
 
+#interests {
+  text-align: center;
+  background-color: #ce97b0;
+  padding: 6.25rem 6.25rem;
+}
 
-  #interests {
-    text-align: center;
-    background-color: #ce97b0;
-    padding: 6.25rem 6.25rem;
-  }
-
-  #skills {
-    background-color: #ce97b0;
-    padding: 6.25rem 6.25rem;
-    height: 60rem;
-  }
-
+#skills {
+  background-color: #ce97b0;
+  padding: 6.25rem 6.25rem;
+  height: 50rem;
+}
   
   /******************************* Media Query Break Points ***************************/
 
 /************************************** Classes *************************************/
 @media (max-width: 670px) {
-    .about-container-header {
-      width: 100%;
-    }
+  .about-container-header {
+    width: 100%;
+  }
 
-    .about-icon {
-        visibility: hidden;
-      }
-    
-      .about-me-para {
-        padding: 0;
-      }
+  .about-icon {
+    visibility: hidden;
+  }
 
-      .achievements-container {
-        height: 56.25rem;
-      }
-    
-      .achievements-header {
-        text-align: center;
-      }
-    
-      .carousel {
-        visibility: hidden;
-      }
+  .about-me-para {
+    padding: 0;
+  }
 
-      .education-header {
-        text-align: center;
-      }
-    
-      .fa-star {
-        color: #8f4068;
-      }
-    
-      .footer-header {
-        text-align: center;
-      }
-    
+  .achievements-container {
+    height: 56.25rem;
+  }
 
-    .homepage-bg-img {
-        height: 60.5rem;
-      }
+  .achievements-header {
+    text-align: center;
+  }
 
-      .interests-container-header {
-        text-align: center;
-      }
-    
-      .interests-container {
-        height: 56.25rem;
-      }
-    
-      .mobile-achievements {
-        visibility: visible;
-      }
+  .carousel {
+    visibility: hidden;
+  }
 
-      .mobile-skills-container {
-        visibility: visible;
-      }
+  .education-header {
+    text-align: center;
+  }
 
-      .mobile-personal-info-column{
-        visibility: visible;
-        text-align: left;
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
-      }
-    
-      .personal-info-column{
-        visibility: hidden;
-        height: 0;
-      }
-    
+  .fa-star {
+    color: #8f4068;
+  }
 
-      .homepage-myFirstName {
-        font-size: 1.875rem;
-        line-height: 1.5;
-      }
-    
-      .lastName {
-        font-size: 1.875rem;
-        line-height: 1.5;
-      }
-    
-      .homepage-myIntroduction {
-        font-size: 1.875rem;
-        line-height: 1.5;
-      }
-    
-      .homepage-container {
-        padding-bottom: 31.25rem;
-      }
+  .footer-header {
+    text-align: center;
+  }
 
-      .skills-container {
-        visibility: hidden;
-      }
-    
-      .skill-element-name {
-        font-family: "Source Sans Pro", sans-serif;
-        color: #4a1c40;
-        font-weight: 400;
-        font-size: 1.25rem;
-      }
-    
-      .skills-header {
-        text-align: center;
-      }
+  .homepage-bg-img {
+    height: 62.5rem;
+  }
 
-       /**************************************** IDs ***************************************/
+  .interests-container-header {
+    text-align: center;
+  }
+
+  .interests-container {
+    height: 56.25rem;
+  }
+
+  .mobile-achievements {
+    visibility: visible;
+  }
+
+  .mobile-skills-container {
+    visibility: visible;
+  }
+
+  .mobile-personal-info-column{
+    visibility: visible;
+    text-align: left;
+    padding-left: 2.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .personal-info-column{
+    visibility: hidden;
+    height: 0;
+  }
+
+  .homepage-myFirstName {
+    font-size: 1.875rem;
+    line-height: 1.5;
+  }
+
+  .lastName {
+    font-size: 1.875rem;
+    line-height: 1.5;
+  }
+
+  .homepage-myIntroduction {
+    font-size: 1.875rem;
+    line-height: 1.5;
+  }
+
+  .homepage-container {
+    padding-bottom: 31.25rem;
+  }
+
+  .skills-container {
+    visibility: hidden;
+  }
+
+  .skill-element-name {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #4a1c40;
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+
+  .skills-header {
+    text-align: center;
+  }
+
+  /**************************************** IDs ***************************************/
   #about {
     text-align: center;
-    padding-left: 0px;
+    padding-left: 0;
     padding-right: 0;
     height: 68.75rem;
   }
@@ -586,7 +580,6 @@
     padding-left: 0;
     padding-right: 0;
   }
-
   #footer {
     text-align: center;
     padding-left: 0;
@@ -599,12 +592,10 @@
     padding-left: 0;
     padding-right: 0;
   }
-
   #skills {
     text-align: center;
     padding-left: 0;
     padding-right: 0;
-    height: 82.95rem;
+    height: 68.75rem;
   }
-
 }
