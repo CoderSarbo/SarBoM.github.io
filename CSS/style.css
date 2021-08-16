@@ -451,7 +451,7 @@
 #skills {
   background-color: #ce97b0;
   padding: 6.25rem 6.25rem;
-  height: 50rem;
+  height: 57rem;
 }
   
   /******************************* Media Query Break Points ***************************/
@@ -517,7 +517,7 @@
   .mobile-personal-info-column{
     visibility: visible;
     text-align: left;
-    padding-left: 2.25rem;
+    padding-left: 1.50rem;
     padding-right: 1.25rem;
   }
 
@@ -572,7 +572,7 @@
     text-align: left;
     padding-left: 0;
     padding-right: 0;
-    height: 43.75rem;
+    height: 44.75rem;
   }
 
   #education {
@@ -596,6 +596,6 @@
     text-align: center;
     padding-left: 0;
     padding-right: 0;
-    height: 68.75rem;
+    height: 82.75rem;
   }
 }
