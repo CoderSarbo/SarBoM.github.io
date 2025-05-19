@@ -53,18 +53,6 @@
   text-align: center;
 }
 
-#ai-chatbot-body {
-  background: #fff;
-  border: 1px solid #8f4068;
-  border-top: none;
-  border-radius: 0 0 12px 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  padding: 10px;
-  height: 320px;
-  display: flex;
-  flex-direction: column;
-}
-
 #ai-chatbot-messages {
   flex: 1;
   overflow-y: auto;
