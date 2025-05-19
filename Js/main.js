@@ -7,7 +7,16 @@ function spinner() {
     }, 4000);
     
 }
-
+let chatBotOpen = false;
+function toggleChatBot() {
+  var body = document.getElementById('ai-chatbot-body');
+  chatBotOpen = !chatBotOpen;
+  if (chatBotOpen) {
+    body.classList.add('open');
+  } else {
+    body.classList.remove('open');
+  }
+}
 function toggleChatBot() {
   var body = document.getElementById('ai-chatbot-body');
   if (body.classList.contains('open')) {
