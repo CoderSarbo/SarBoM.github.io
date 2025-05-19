@@ -4,9 +4,9 @@ function spinner() {
     setTimeout (() => {
         preloader.style.opacity = 0;
         preloader.style.display = 'none' ;
-    }, 4000);
-    
+    }, 4000);    
 }
+
 function toggleChatBot() {
   var body = document.getElementById('ai-chatbot-body');
  if (body.classList.contains('open')) {
