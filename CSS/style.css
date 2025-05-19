@@ -28,18 +28,20 @@
   z-index: 9999;
 }
 #ai-chatbot-body {
-  display: flex;
+  display: none;
   flex-direction: column;
-  max-height: 320px;
-  transition: max-height 0.25s, opacity 0.25s;
-  opacity: 1;
-  overflow: hidden;
+  background: #fff;
+  border: 1px solid #8f4068;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  padding: 10px;
+  height: 320px;
+  width: 100%;
+  font-size: 15px;
 }
-#ai-chatbot-body.closed {
-  max-height: 0;
-  opacity: 0;
-  pointer-events: none;
-  padding: 0 !important;
+#ai-chatbot-body.open {
+  display: flex;
 }
 #ai-chatbot-header {
   background: #8f4068;
