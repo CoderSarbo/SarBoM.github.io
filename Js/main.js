@@ -7,17 +7,27 @@ function spinner() {
     }, 4000);
     
 }
+//function toggleChatBot() {
+//  var body = document.getElementById('ai-chatbot-body');
+//  if (body.classList.contains('open')) {
+//    body.classList.remove('open');
+//  } else {
+//    body.classList.add('open');
+//  }
+//}
+//document.getElementById('ai-chatbot-header').onclick = function(event) {
+//  event.stopPropagation();
+ // toggleChatBot();
+//}
+let chatBotOpen = false;
 function toggleChatBot() {
   var body = document.getElementById('ai-chatbot-body');
-  if (body.classList.contains('open')) {
-    body.classList.remove('open');
-  } else {
+  chatBotOpen = !chatBotOpen;
+  if (chatBotOpen) {
     body.classList.add('open');
+  } else {
+    body.classList.remove('open');
   }
-}
-document.getElementById('ai-chatbot-header').onclick = function(event) {
-  event.stopPropagation();
-  toggleChatBot();
 }
 
 function sendChatMessage() {
