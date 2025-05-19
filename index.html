@@ -39,7 +39,7 @@ f<!DOCTYPE html>
 <!-- AI Chat Bot Widget -->
 <div id="ai-chatbot-widget">
   <div id="ai-chatbot-header" onclick="toggleChatBot()">🤖 Ask me about this website!</div>
-  <div id="ai-chatbot-body" style="display:none;">
+  <div id="ai-chatbot-body" class="closed">
     <div id="ai-chatbot-messages"></div>
     <input id="ai-chatbot-input" type="text" placeholder="Ask me anything..." onkeydown="if(event.key==='Enter'){sendChatMessage();}">
     <button onclick="sendChatMessage()">Send</button>
