@@ -52,7 +52,7 @@ function getBotReply(msg) {
   if (msg.includes('sarbojit') || msg.includes('owner')) {
     return "Sarbojit Majumder is a Technical Consultant and Web Developer. This website showcases his portfolio, skills, projects, and contact info.";
   }
-  if (msg.includes('What are his skills') || msg.includes('skills') || msg.includes('what are his skills')) {
+  if (msg.includes('What are his technical skills') || msg.includes('skills') || msg.includes('what are his skills')) {
     return "Sarbojit is skilled in C++, Java, Python, JavaScript, HTML, CSS, Java Springboot, and more!";
   }
   if (msg.includes('contact') || msg.includes('email')) {
