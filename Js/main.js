@@ -43,7 +43,7 @@ function addChatMessage(sender, text) {
 // Basic FAQ logic for your site
 function getBotReply(msg) {
   msg = msg.toLowerCase();
-  if (msg.includes('your name') || msg.includes('who are you')) || || msg.includes('Hi')) {
+  if (msg.includes('your name') || msg.includes('who are you')) || msg.includes('Hi')) {
     return "I'm the SarboM AI chat bot, here to help you learn about Sarbojit Majumder and this website!";
   }
   if (msg.includes('sarbojit') || msg.includes('owner')) {
