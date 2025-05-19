@@ -10,11 +10,7 @@ function spinner() {
 
 function toggleChatBot() {
   var body = document.getElementById('ai-chatbot-body');
-  if (body.style.display === '' || body.style.display === 'none') {
-    body.style.display = 'flex';
-  } else {
-    body.style.display = 'none';
-  }
+  body.classList.toggle('open');
 }
 
 function sendChatMessage() {
