@@ -10,7 +10,11 @@ function spinner() {
 
 function toggleChatBot() {
   var body = document.getElementById('ai-chatbot-body');
-  body.classList.toggle('open');
+  if (body.classList.contains('open')) {
+    body.classList.remove('open');
+  } else {
+    body.classList.add('open');
+  }
 }
 
 function sendChatMessage() {
