@@ -16,6 +16,10 @@ function toggleChatBot() {
     body.classList.add('open');
   }
 }
+document.getElementById('ai-chatbot-header').onclick = function(event) {
+  event.stopPropagation();
+  toggleChatBot();
+}
 
 function sendChatMessage() {
   var input = document.getElementById('ai-chatbot-input');
